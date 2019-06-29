@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mi.miui.quicksetting" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="快捷磁贴">
+		<service
+            android:name=".qqq"
+            android:icon="@drawable/qq"
+            android:label="QQ轻聊"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		<service
+            android:name=".qqhd"
+            android:icon="@drawable/qq"
+            android:label="QQHD"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		<service
+            android:name=".qqg"
+            android:icon="@drawable/qq"
+            android:label="QQ国际"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		<service
+            android:name=".qq"
+            android:icon="@drawable/qq"
+            android:label="QQ"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		<service
+            android:name=".we"
+            android:icon="@drawable/wx"
+            android:label="微信"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		<service
+            android:name=".tim"
+            android:icon="@drawable/tim"
+            android:label="Tim"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+		</service>
+		
+		
+    </application>
+
+</manifest>
